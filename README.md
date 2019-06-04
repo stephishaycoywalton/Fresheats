@@ -1,86 +1,11 @@
-# Webpack 4 Boilerplate for beginners
-A basic webpack 4 boilerplate for beginners to start with any JS/ES6 based project. This project uses basic html with scss. It includes working background images in scss as well as file loading in html. Uses Dev Server and Sourcemaps for easy debugging. Includes stylelinting and fixes for cleaner css. Uses Babel to convert ES6 to ES5. 
-<br>
-## Guide
-This basic boilerplate is the final output of this comprehensive write up on Medium, plus several additions. I recommend to read this article to know the insight of how you can configure webpack from scratch.
-[Webpack 3 quickstarter: Configure webpack from scratch](https://medium.com/@nirjhor123/webpack-3-quickstarter-configure-webpack-from-scratch-30a6c394038a)
-<br>
-1. Navigate to the appropriate parent folder of where your project will be located. This example uses a folder on the desktop called "class projects". NOTE: Start from your home directory "~".
+The assignment was to design and code a one-page client website Client: Fresh Eats.
 
-```
-$ cd desktop/class-projects
-```
+The main goal of the entire project was to meet the request of the client by creating a well-designed “easy to read” professional website to sell their meal prep service. They are excited to share their nationally based delivery services.
 
-2. Clone the webpack-starter into your parent folder with the following command:
+The project required a serious attention to detail in the area of media queries, which can be a task if not properly educated on the skillset. The objective is to code the mobile site first, and then scale up to the desktop site while adding media queries where necessary. The media queries will allow the site to remain fully responsive regardless of what interface it is viewed on.
 
-```
-$ git clone https://github.com/SJCCodeTalk/webpack-starter.git
-```
-3. Change the name of webpack-starter to reflect the name of your project
+There was a source folder provided with particular images and the company's logo, along with color pallette choices.
 
-4. Change your directory to the project folder. 
+These were the requirements of the client: -A single page website with the following sections 1. How It Worx 2. Choose a Plan 3. View Our Menu 4. Login/SignUp
 
-```
-$ cd new-project
-```
-
-5. Install dependencies
-
-```
-$ npm install
-```
-
-
-6.  Develop locally with webpack-dev-server
-
-```
-$ npm run dev
-```
-
-## For Development version
-
-```
-$ npm run dev
-```
-
-In your browser, navigate to: [http://localhost:2000/](http://localhost:2000/)
-
-## For Production version
-
-```
-$ npm run build
-```
-This is the final distribution version of your project located in the /dist folder
-
-### To restart your project after leaving it
-
-1. Navigate to your project folder in terminal
-
-2. Run Dev. 
-
-```
-$ npm run dev
-```
-
-Note: it is safe to move from dev to build and build to dev. Just run [control] "c" to cancel dev processes if in the dev version.
- 
-## Loaders and Plugins used in this boilerplate
-
-### Loaders
-* html-loader
-* sass-loader
-* css-loader
-* style-loader
-* file-loader
-* babel-loader
-
-### Plugins
-* clean-webpack-plugin
-* mini-css-extract-plugin
-* html-webpack-plugin
-* style-lint-plugin
-* optimize-css-assets-webpack-plugin
-* uglify-js-plugin
-
-# gh
-# Fresheats
+-Each section was included in the navigation menu and linked as anchor div links. -The background should utilize a style tile color, textured background or complimenting image. -The website should also be fully responsive. -2 Google Fonts must be linked appropriately. -Buttons should have hover states. -Use HEX colors for site colors. -Minimum of 7 images are used.
